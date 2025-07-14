@@ -1,0 +1,206 @@
+/* Dark Theme Reset */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: 'Poppins', sans-serif;
+}
+
+body {
+  background: #121212;
+  color: #f5f5f5;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+
+/* Container */
+.container {
+  background: #1e1e1e;
+  padding: 40px;
+  border-radius: 20px;
+  box-shadow: 0 0 20px rgba(0,0,0,0.7);
+  width: 360px;
+  text-align: center;
+  animation: fadeIn 1s ease;
+}
+
+/* Heading */
+.container h2 {
+  margin-bottom: 20px;
+  color: #00c6ff;
+  font-size: 28px;
+}
+
+/* Input fields */
+.container input {
+  width: 100%;
+  padding: 12px;
+  margin: 12px 0;
+  border: none;
+  border-radius: 10px;
+  background: #292929;
+  color: #f5f5f5;
+  font-size: 16px;
+  transition: 0.3s;
+}
+
+.container input:focus {
+  outline: none;
+  background: #333;
+  box-shadow: 0 0 8px #00c6ff;
+}
+
+/* Buttons */
+.container button {
+  width: 100%;
+  padding: 12px;
+  margin-top: 16px;
+  border: none;
+  border-radius: 10px;
+  background: linear-gradient(135deg, #00c6ff, #0072ff);
+  color: #fff;
+  font-size: 16px;
+  cursor: pointer;
+  transition: 0.4s;
+}
+
+.container button:hover {
+  background: linear-gradient(135deg, #0072ff, #00c6ff);
+  transform: translateY(-2px);
+  box-shadow: 0 5px 15px rgba(0,198,255,0.4);
+}
+
+/* Link */
+.container a {
+  color: #aaa;
+  text-decoration: none;
+  display: block;
+  margin-top: 20px;
+  font-size: 14px;
+}
+
+.container a:hover {
+  color: #00c6ff;
+}
+
+/* Animation Keyframes */
+@keyframes fadeIn {
+  from {
+    opacity: 0;
+    transform: translateY(40px);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+/* assets/css/style.css */
+
+/* Reset & Base */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: 'Poppins', sans-serif;
+}
+
+body {
+  background: #121212;
+  color: #f5f5f5;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+
+.container {
+  background: #1e1e1e;
+  padding: 40px;
+  border-radius: 20px;
+  box-shadow: 0 0 20px rgba(0,0,0,0.7);
+  width: 360px;
+  text-align: center;
+  animation: fadeIn 1s ease;
+}
+
+.container h1, .container h2 {
+  margin-bottom: 20px;
+  color: #00c6ff;
+  font-size: 28px;
+}
+
+.container input {
+  width: 100%;
+  padding: 12px;
+  margin: 12px 0;
+  border: none;
+  border-radius: 10px;
+  background: #292929;
+  color: #f5f5f5;
+  font-size: 16px;
+  transition: 0.3s;
+}
+
+.container input:focus {
+  outline: none;
+  background: #333;
+  box-shadow: 0 0 8px #00c6ff;
+}
+
+.container button, .btn {
+  display: inline-block;
+  width: 100%;
+  padding: 12px;
+  margin-top: 16px;
+  border: none;
+  border-radius: 10px;
+  background: linear-gradient(135deg, #00c6ff, #0072ff);
+  color: #fff;
+  font-size: 16px;
+  cursor: pointer;
+  transition: 0.4s;
+  text-decoration: none;
+  text-align: center;
+}
+
+.container button:hover, .btn:hover {
+  background: linear-gradient(135deg, #0072ff, #00c6ff);
+  transform: translateY(-2px);
+  box-shadow: 0 5px 15px rgba(0,198,255,0.4);
+}
+
+.container a {
+  color: #ffffff;
+  text-decoration: none;
+  display: block;
+  margin-top: 20px;
+  font-size: 14px;
+}
+
+.container a:hover {
+  color: #000000;
+  font-weight: bold;
+}
+
+#comparisonResult, #floorResult {
+  margin-top: 20px;
+  text-align: left;
+  background: #292929;
+  padding: 20px;
+  border-radius: 12px;
+  box-shadow: 0 0 8px rgba(0, 198, 255, 0.2);
+}
+
+@keyframes fadeIn {
+  from {
+    opacity: 0;
+    transform: translateY(40px);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
